@@ -1,0 +1,57 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.Sub-container{
+    background-color: aliceblue;
+    border-radius: 10px;
+    width: 300px;
+    height:auto;
+    box-shadow: 2px 5px 10px black;
+}
+h2{
+    background-color: cadetblue;
+    border-bottom: 2px solid red;
+    text-align:center;
+    font-style: initial;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 7px;
+}
+input{
+    border:0px;
+    border-bottom: 2px solid green;
+    background-color: aliceblue;
+    outline: none;
+    padding:7px;
+    margin: 25px;
+}
+button{
+    border-radius: 50px;
+    width: 40px;
+    height:40px;
+    border: 0px;
+    padding: 7px;
+    background-color: green;
+    color:white;
+    margin-left:10px;
+}
+button:hover{
+    background-color: cadetblue;
+    color:black;
+    transition: 1s;
+}
+.list-Items li{
+    background-color: cadetblue;
+    margin: 14px;
+    width:270px;
+    padding: 10px;
+    list-style:none;
+}
